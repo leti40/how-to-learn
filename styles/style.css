@@ -13,19 +13,114 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  /* выше установили ограничения для секции */
+  background-color: #f2f2f2;
+  display: flex;
+  position: relative;
+  color: black;
+  border: solid;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+.logo_place_header {
+  width: 228px;
+  height: 32px;
+  position: absolute;
+  top: 30px;
+  left: 64px;
+}
+
+.header_title {
+  display: flex;
+  font-weight: bold;
+  position: absolute;
+  align-self: center;
+  line-height: 96px;
+  font-size: 102px;
+  width: 730px;
+  left: 64px;
+}
+
+.header_subtitle {
+  position: absolute;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  width: 388px;
+  left: 64px;
+  bottom: 30px;
+}
+
+.header_main-illustration {
+  display: flex;
+  width: 765px;
+  height: 608px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.header__link {
+  text-decoration: none;
+}
+
 .header__square-pic {
+  position: absolute;
   height: 568px;
   width: 568px;
+  right: 0;
+  bottom: 0;
+  top: 64px;
+  background-color: #2f80ed;
 }
 
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
+/*content*/
+
+.description {
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  margin: 100px 0 0;
+  border: 2px solid crimson;
+}
+
+.two-columns {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid crimson;
+}
+
+.two-columns__brief {
+  margin: 0;
+  width: 175px;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: normal;
+  color: #2f80ed;
+  border: 2px solid crimson;
+}
+
+.two-columns__main-text {
+  min-width: 784px;
+  width: 80%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  border: 2px solid crimson;
+}
+
+.two-columns__paragraph {
+  margin: 0;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+  border: 2px solid crimson;
+}
+
+.two-columns__span-accent {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: bold;
+  border: 2px solid crimson;
 }
