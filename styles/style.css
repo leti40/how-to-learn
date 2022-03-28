@@ -124,3 +124,20 @@
   font-weight: bold;
   border: 2px solid crimson;
 }
+
+.logo {
+ width: 228px;
+ height: 32px;
+}
+
+.logo_place_header {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+}
+
+.header_title {
+  display: flex;
+  width: 730px;
+  margin-right: 64px;
+}
