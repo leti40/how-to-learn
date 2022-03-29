@@ -171,12 +171,13 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
+  margin: 0;
 }
 
 .table_text {
   line-height: 1.2;
   margin-top: 20px;
-  margin-right: 60px;
+  margin-bottom: 0px;
   font-size: 18px;
   font-weight: normal;
 }
