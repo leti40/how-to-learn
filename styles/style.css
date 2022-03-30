@@ -327,28 +327,28 @@
   justify-content: center;
 }
 
-.columns {
+.footer__columns {
   width: 90%;
   display: flex;
   justify-content: space-between;
   position: relative;
 }
 
-.column_content_copyright {
+.footer__column_content_copyright {
   flex-basis: 711px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
 }
 
-.logo_place_footer {
+.footer__logo_place_footer {
   width: 228px;
   height: 32px;
   top: 0px;
   left: 0px;
 }
 
-.author {
+.footer__author {
   margin: 18px 0;
   line-height: 25px;
   font-size: 18px;
@@ -357,17 +357,17 @@
   color: #f2f2f2;
 }
 
-.column_content_info {
+.footer__column_content_info {
   display: flex;
   justify-content: space-between;
 }
 
-.column_content_social {
+.footer__column_content_social {
   display: flex;
   justify-content: space-between;
 }
 
-.column-heading {
+.footer__column-heading {
   margin: 0;
   padding: 0;
   line-height: 30px;
