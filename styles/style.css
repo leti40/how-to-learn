@@ -28,7 +28,7 @@
   left: 64px;
 }
 
-.header_title {
+.header__title {
   display: flex;
   font-weight: bold;
   position: absolute;
@@ -36,12 +36,12 @@
   z-index: 2;
   line-height: 96px;
   font-size: 102px;
-  width: 730px;
+  max-width: 730px;
   left: 64px;
   margin: 0;
 }
 
-.header_subtitle {
+.header__subtitle {
   line-height: 25px;
   font-size: 18px;
   position: absolute;
@@ -53,7 +53,7 @@
   margin: 0;
 }
 
-.header_main-illustration {
+.header__main-illustration {
   width: 765px;
   height: 608px;
   position: absolute;
@@ -64,6 +64,7 @@
 
 .header__link {
   text-decoration: none;
+  color: #2f80ed;
   z-index: 1;
 }
 
@@ -132,7 +133,7 @@
   justify-content: center;
 }
 
-.digits__section-title {
+.section-title {
   width: 60%;
   text-align: center;
   margin-top: 100px;
@@ -142,7 +143,7 @@
   font-weight: bold;
 }
 
-.digits__section-subtitle {
+.section-subtitle {
   width: 60%;
   text-align: center;
   line-height: 34px;
@@ -152,8 +153,9 @@
   font-weight: normal;
 }
 
-.digits__table {
+.table {
   display: flex;
+  list-style: none;
   flex-direction: row;
   flex-wrap: wrap;
   margin-bottom: 100px;
@@ -185,7 +187,7 @@
 /*feynman*/
 
 .feynman {
-  height: 890px;
+  min-height: 890px;
   background-color: #f2f2f2;
   display: flex;
   position: relative;
@@ -248,7 +250,7 @@
   background-color: #1f1f1f;
 }
 
-.section-title__theme_dark {
+.section-title_theme_dark {
   width: 60%;
   text-align: center;
   margin-top: 90px;
@@ -259,7 +261,7 @@
   color: #f2f2f2;
 }
 
-.section-subtitle__theme_dark {
+.section-subtitle_theme_dark {
   width: 60%;
   text-align: center;
   margin-top: 20px;
@@ -270,9 +272,10 @@
   color: #f2f2f2;
 }
 
-.table__theme_dark {
+.table_theme_dark {
   display: flex;
   flex-direction: row;
+  list-style: none;
   margin: 0 0 90;
   flex-wrap: wrap;
   margin-bottom: 100px;
@@ -325,6 +328,7 @@
   padding: 60px 0 40px;
   background-color: #1f1f1f;
   justify-content: center;
+  box-sizing: border-box;
 }
 
 .footer__columns {
@@ -341,7 +345,7 @@
   flex-direction: column;
 }
 
-.footer__logo_place_footer {
+.logo_place_footer {
   width: 228px;
   height: 32px;
   top: 0px;
@@ -376,15 +380,21 @@
   color: #f2f2f2;
 }
 
-.footer__column-link {
+.footer__column-links {
   margin: 20px 0 16px;
   padding: 0;
   line-height: 30px;
+  list-style: none;
   font-size: 18px;
   font-weight: normal;
   justify-content: space-between;
   color: #f2f2f2;
   text-decoration: none;
+}
+
+.footer__column-link {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .footer__social-icon {
