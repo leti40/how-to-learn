@@ -5,6 +5,7 @@
     justify-content: center;
     overflow: hidden;
     position: relative;
+    padding-bottom: 100px;
     z-index: 1;
     background-color: #1f1f1f;
 }
