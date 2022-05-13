@@ -1,4 +1,5 @@
 @import url(../blocks/page/page.css);
+@import url(../styles/normalize.css);
 @import url(../blocks/rotate/rotate.css);
 @import url(../blocks/section-subtitle/section-subtitle.css);
 @import url(../blocks/section-title/section-title.css);
