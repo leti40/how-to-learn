@@ -3,5 +3,6 @@
     margin: auto;
     flex-wrap: wrap;
     justify-content: center;
+    width: 80%;
     padding: 100px 0;
 }
